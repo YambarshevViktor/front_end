@@ -18,21 +18,15 @@
     clear: both;
 }
 
-.top_me
+.top_menu i
 {
-    margin-left: 500px;
-}
-
-.top_menu img
-{
-    float: left;
-    margin-top: 17px;
+	margin-right: 10px;
 }
 
 .top_menu a
 {
     float: left;
-    padding: 9px 40px 5px 11px;
+    padding: 9px 20px 9px 20px;
     text-decoration: none;
     font-size: 19px;
     line-height: 32px;
@@ -40,9 +34,16 @@
     font-family: "Georgia";
 }
 
+.top_menu a:hover {
+    background-color: #15a98c;
+    color: white;
+}
+
 .top_menu
 {
     height: 50px;
+	margin-left: 480px;
+
 }
 
 .photo_and_quote
@@ -213,7 +214,7 @@
 
 .serials
 {
-    width: 1300px;
+    width: 1200px;
     margin-left: 360px;
     margin-bottom: 70px;
     margin-top: -25px;
@@ -233,6 +234,12 @@
 {
     float: left;
     margin-right: 20px;
+}
+
+.serial_last
+{
+	float: left;
+    margin-right: 0px;
 }
 
 .serial_logo
