@@ -400,6 +400,12 @@ textarea
     margin-top: 5px;
 }
 
+select
+{
+    -webkit-appearance: none;
+    background: url('../media/arrow_down.png') no-repeat 498px 16px;
+}
+
 .form_gender
 {
     margin-top: 41px;
