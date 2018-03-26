@@ -21,7 +21,7 @@ reverse()
 
 function extraSpaces(){
   var string = '  Hello,      World!';
-  console.log('Строка "  Hello,      World!" без лишних пробелов: ', string.replace(/\s+/g, ' '));
+  console.log('Строка "  Hello,      World!" без лишних пробелов: ', string.trim().replace(/\s+/g, ' '));
 }
 
 extraSpaces()
