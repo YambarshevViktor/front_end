@@ -369,7 +369,7 @@
 select:hover,
 textarea:hover
 {
-    border: 2px solid #15a98b;
+    border: 2px solid #a6a6a6;
 }
 
 .write_me_form input:focus,
@@ -398,6 +398,7 @@ textarea
     border-radius: 3px;
     border: 2px solid #c9c9c9;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 select
@@ -410,6 +411,12 @@ select
 {
     margin-top: 41px;
     margin-bottom: 37px;
+}
+
+.checkBoxOne,
+.checkBoxTwo
+{
+    cursor: pointer;
 }
 
 .checkBoxTwo

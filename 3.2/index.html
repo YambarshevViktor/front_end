@@ -99,11 +99,11 @@
         <form action="post" class="write_me_form">
             <div class="form_row">
                 <label for="username">Ваше имя<span class="form_star">*</span></label>
-                <input type="text" name="username" placeholder="Напишите имя..." class="username">
+                <input type="text" name="username" required placeholder="Напишите имя..." class="username">
             </div>
             <div class="form_row">
                 <label for="email">Ваш email<span class="form_star">*</span></label>
-                <input type="text" name="email" placeholder="Напишите email..." class="email">
+                <input type="text" name="email" required placeholder="Напишите email..." class="email">
             </div>
             <div class="form_row">
                 <label for="where_are_you_from">Откуда вы?</label>
@@ -126,7 +126,7 @@
             </div>
             <div class="form_gender">
                 <label for="Your_message">Ваше сообщение<span class="form_star">*</span></label>
-                <textarea class="message" placeholder="Напишите текст сообщения..." name="message" rows="8"></textarea>
+                <textarea class="message" required placeholder="Напишите текст сообщения..." name="message" rows="8"></textarea>
             </div>
             <input type="submit" value="Отправить" class="submit_form">
         </form>
