@@ -8,19 +8,12 @@
 {
     width: 1000px;
     margin: 0 auto;
-    position: relative;
-    margin-left: 460px;
-    margin-top: -295px;
+    padding-top: 110px;
 }
 
 .clear
 {
     clear: both;
-}
-
-.top_menu i
-{
-	margin-right: 10px;
 }
 
 .top_menu a
@@ -34,7 +27,8 @@
     font-family: "Georgia";
 }
 
-.top_menu a:hover {
+.top_menu a:hover
+{
     background-color: #15a98c;
     color: white;
 }
@@ -42,8 +36,13 @@
 .top_menu
 {
     height: 50px;
-	margin-left: 480px;
+    width: 950px;
+    margin: auto;
+}
 
+.container
+{
+    background: url(../media/top_background.jpg) repeat-x
 }
 
 .photo_and_quote
@@ -215,10 +214,14 @@
 .serials
 {
     width: 1200px;
-    padding: 25px 360px 60px 360px;
-    margin-bottom: 45px;
-    margin-top: -50px;
+    margin: 0 auto;
     background-color: #f9f9f9;
+}
+
+.serials_wrapper
+{
+    background-color: #f9f9f9;
+    padding: 25px 0 60px 0;
 }
 
 .my_serials
@@ -264,7 +267,6 @@
 .about_serial
 {
     width: 285px;
-    height: 565px;
     font-size: 16px;
     line-height: 28px;
     color: rgb(85,85,85);
@@ -286,8 +288,8 @@
     border-radius: 5px;
     background-color: #15a98b;
 
-    margin-left: 480px;
-    margin-top: -6px;
+    display: block;
+    margin: 60px auto 70px;
 }
 
 .button input[type='submit']:hover
@@ -302,8 +304,10 @@
     line-height: 42px;
     color: rgb(51,51,51);
     font-family: "Open Sans";
-    margin-left: 600px;
     font-weight: 300;
+    margin-bottom: 50px;
+    margin-top: 69px;
+    text-align: center;
 }
 
 .form_title:after,
@@ -339,9 +343,7 @@
     font-family: 'Open Sans', '400';
     line-height: 32px;
     color: rgb(51,51,51);
-    margin-bottom: 50px;
-    margin-left: 690px;
-    margin-top: 69px;
+    margin: 70px auto 50px;
 }
 
 .write_me_form label
@@ -413,15 +415,15 @@ select
     margin-bottom: 37px;
 }
 
-.checkBoxOne,
-.checkBoxTwo
+.gender_male,
+.gender_female
 {
     cursor: pointer;
 }
 
-.checkBoxTwo
+.gender_female
 {
-     margin-left: 40px;
+    margin-left: 40px;
 }
 
 .message
@@ -430,6 +432,7 @@ select
     height: 148px;
     border-radius: 3px;
     border: 2px solid #c9c9c9;
+    resize: none;
 }
 
 .write_me_form input[type='submit']
