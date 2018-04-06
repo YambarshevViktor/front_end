@@ -1,0 +1,535 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main_container
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 110px;
+    width: 90%;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.menu ul,
+.menu li
+{
+    float: left;
+    list-style-type: none;
+}
+
+.top_menu a
+{
+    text-decoration: none;
+    float: left;
+    padding: 9px 20px 9px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Georgia";
+}
+
+.top_menu a:hover,
+.menu_tuggle:hover
+{
+    background-color: #15a98c;
+    color: white;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.top_menu
+{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+nav .top_menu
+{
+    position: relative;
+}
+
+.menu li a
+{
+    display: inline-table;
+}
+
+.menu_tuggle
+{
+    padding: 9px 20px 9px 20px;
+    display: none;
+    cursor: pointer;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Georgia";
+}
+
+#menuCheck
+{
+    display: none;
+}
+
+.container
+{
+    background: url(../media/top_background.jpg) repeat-x
+}
+
+.photo_and_quote
+{
+    margin: 100px 22px 0px 20px;
+    max-width: 100%;
+}
+
+.my_photo
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #132d35;
+    float: left;
+    margin-right: 60px;
+    max-width: 100%;
+    height: auto;
+}
+
+.quote_one
+{
+    float: left;
+    height: 350px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.quote
+{
+    height: 200px;
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(255,255,255);
+    font-family: "Georgia";
+    font-style: italic;
+    margin-top: 27px;
+    width: 100%
+}
+
+.quote_name
+{
+    font-size: 16px;
+    line-height: 42px;
+    color: rgb(245,245,245);
+    font-family: "Open Sans";
+    font-weight: bold;
+    position: relative;
+    bottom: 115px;
+    width: 100%;
+}
+
+.about_me
+{
+    float: right;
+    max-width: 570px;
+    height: 650px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 117px;
+    width: 100%;
+}
+
+.name:after
+{
+    content: '';
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+    display: block;
+    margin-top: 30px;
+}
+
+.name
+{
+    font-size: 48px;
+    line-height: 44px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+    width: 100%
+}
+
+.information
+{
+    margin-top: 46px;
+    margin-right: 22px;
+    width: 100%;
+}
+
+.my_information
+{
+    max-width: 561px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+}
+
+.my_hobbies
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-top: 73px;
+}
+
+.hobbies
+{
+    max-width: 562px;
+    width: 100%;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    margin-top: 15px;
+}
+
+.my_vk
+{
+    max-width: 562px;
+    width: 100%;
+    height: 263px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(21,169,139);
+    font-family: "Georgia";
+    text-decoration: none;
+}
+
+.link
+{
+    color: rgb(21,169,139);
+    font-family: "Georgia";
+    text-decoration: underline;
+}
+
+.vk
+{
+    margin-top: 42px;
+}
+
+.directors_and_films
+{
+    float: left;
+    max-width: 330px;
+    width: 100%;
+    margin-right: 60px;
+    margin-left: 20px;
+    margin-top: 44px;
+}
+
+.best
+{
+    height: 230px;
+}
+
+.like
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21,169,140);
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.top_list
+{
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    list-style-position: inside;
+    margin-top: 15px;
+}
+
+.serials
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.serials_wrapper
+{
+    background-color: #f9f9f9;
+    padding: 25px 0 60px 0;
+}
+
+.my_serials
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-bottom: 33px;
+    width: 100%;
+}
+
+.serial
+{
+    margin-right: 20px;
+}
+
+.serial_last
+{
+    margin-right: 0px;
+}
+
+.serial_logo
+{
+    width: 285px;
+    height: 190px;
+    border-radius: 5px;
+    background-color: #454545;
+}
+
+.name_serial
+{
+    font-size: 22px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-top: 19px;
+}
+
+.about_serial
+{
+    width: 285px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    margin-top: 16px;
+}
+
+.button input[type='submit']
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(245,245,245);
+    font-family: "Georgia";
+    cursor: pointer;
+
+    border: none;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98b;
+
+    display: block;
+    margin: 60px auto 0;
+}
+
+.button input[type='submit']:hover
+{
+    background-color: #098d71;
+}
+
+.form_write
+{
+    width: 100%;
+}
+
+.form_title
+{
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans";
+    font-weight: 300;
+    margin-bottom: 50px;
+    margin-top: 69px;
+    text-align: center;
+}
+
+.form_title:after,
+.form_title:before
+{
+    content: '';
+    width: 200px;
+    height: 1px;
+    background-color: #c4c4c4;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.form_title:before
+{
+    margin-right: 32px;
+}
+
+.form_title:after
+{
+    margin-left: 23px;
+}
+
+.form_row
+{
+    margin-bottom: 22px;
+}
+
+.write_me_form
+{
+    max-width: 540px;
+    font-family: 'Open Sans', '400';
+    line-height: 32px;
+    color: rgb(51,51,51);
+    margin: 70px auto 50px;
+    width: 100%;
+}
+
+.write_me_form label
+{
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: "Open Sans", '400';
+}
+
+.form_star
+{
+    color: red;
+}
+
+.write_me_form input[type='text'],
+select,
+textarea
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Open Sans";
+
+    margin: 0 auto;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+
+    height: 50px;
+    max-width: 540px;
+    width: 100%;
+}
+
+.write_me_form input:hover,
+select:hover,
+textarea:hover
+{
+    border: 2px solid #a6a6a6;
+}
+
+.write_me_form input:focus,
+select:focus,
+textarea:focus
+{
+    border: 2px solid #15a98b;
+    outline: none;
+}
+
+.where_are_you_from
+{
+    max-width: 540px;
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+select
+{
+    -webkit-appearance: none;
+    background: url('../media/arrow_down.png') no-repeat 498px 16px;
+}
+
+.form_gender
+{
+    margin-top: 41px;
+    margin-bottom: 37px;
+}
+
+.gender_male,
+.gender_female
+{
+    cursor: pointer;
+}
+
+.gender_female
+{
+    margin-left: 40px;
+}
+
+.message
+{
+    max-width: 540px;
+    width: 100%;
+    height: 148px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    resize: none;
+}
+
+.write_me_form input[type='submit']
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(245,245,245);
+    font-family: "Georgia";
+    cursor: pointer;
+
+    border: none;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98b;
+}
+
+.write_me_form input[type='submit']:hover
+{
+    background-color: #098d71;
+}
+
+.footer_info
+{
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(85,85,85);
+    font-family: "Georgia";
+    text-align: center;
+    padding: 20px;
+}
+
+.footer
+{
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,77 @@
+@media screen and (max-width: 570px){
+	.menu
+	{
+		display: none;
+		position: absolute;
+		background-color: white;
+	}
+
+	.menu li
+	{
+		float: none;
+	}
+
+	.menu_tuggle
+	{
+		display: inline-block;
+	}
+
+	#menuCheck:checked + .menu
+	{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 720px){
+	.form_title:after,
+	.form_title:before
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 950px){
+	.quote
+	{
+		color: rgb(51,51,51);
+	}
+
+	.quote_name
+	{
+		color: #45c3a9;
+		position: relative;
+		bottom: 75px;
+	}
+}
+
+@media screen and (max-width: 970px){
+	.about_me
+	{
+		float: none;
+	}
+
+	.directors_and_films
+	{
+		float: none;
+	}
+
+	.information
+	{
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 545px){
+	select
+	{
+		-webkit-appearance: menulist-button;
+		background: none;
+	}
+}
+
+/*@media screen and (max-width: 1240px){
+	.serials
+	{
+		margin-left: 5px;
+	}
+}
