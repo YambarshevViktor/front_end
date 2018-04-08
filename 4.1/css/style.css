@@ -84,7 +84,7 @@ nav .top_menu
 
 .container
 {
-    background: url(../media/top_background.jpg) repeat-x
+    background: url(../media/top_background.jpg) repeat-x;
 }
 
 .photo_and_quote
@@ -96,26 +96,22 @@ nav .top_menu
 .my_photo
 {
     width: 330px;
-    height: 350px;
     border-radius: 5px;
     background-color: #132d35;
     float: left;
     margin-right: 60px;
     max-width: 100%;
-    height: auto;
 }
 
 .quote_one
 {
     float: left;
-    height: 350px;
     max-width: 500px;
     width: 100%;
 }
 
 .quote
 {
-    height: 200px;
     font-size: 28px;
     line-height: 42px;
     color: rgb(255,255,255);
@@ -132,8 +128,8 @@ nav .top_menu
     color: rgb(245,245,245);
     font-family: "Open Sans";
     font-weight: bold;
-    position: relative;
-    bottom: 115px;
+    /*position: relative;
+    bottom: 115px;*/
     width: 100%;
 }
 
@@ -141,7 +137,7 @@ nav .top_menu
 {
     float: right;
     max-width: 570px;
-    height: 650px;
+    /*height: 650px;*/
     margin-right: 20px;
     position: relative;
     bottom: 117px;
@@ -210,7 +206,7 @@ nav .top_menu
 {
     max-width: 562px;
     width: 100%;
-    height: 263px;
+    /*height: 263px;*/
     font-size: 19px;
     line-height: 32px;
     color: rgb(21,169,139);
@@ -240,7 +236,8 @@ nav .top_menu
     margin-top: 44px;
 }
 
-.best
+.best_films,
+.best_directors
 {
     height: 230px;
 }
@@ -303,10 +300,10 @@ nav .top_menu
 
 .serial_logo
 {
-    width: 285px;
-    height: 190px;
+    max-width: 285px;
     border-radius: 5px;
     background-color: #454545;
+    width: 100%;
 }
 
 .name_serial
@@ -317,11 +314,13 @@ nav .top_menu
     font-family: "Open Sans";
     font-weight: bold;
     margin-top: 19px;
+    width: 100%;
 }
 
 .about_serial
 {
-    width: 285px;
+    max-width: 285px;
+    width: 100%;
     font-size: 16px;
     line-height: 28px;
     color: rgb(85,85,85);
@@ -404,7 +403,7 @@ nav .top_menu
     line-height: 32px;
     color: rgb(51,51,51);
     margin: 70px auto 50px;
-    width: 100%;
+    padding: 0 20px;
 }
 
 .write_me_form label
@@ -469,7 +468,7 @@ textarea:focus
 select
 {
     -webkit-appearance: none;
-    background: url('../media/arrow_down.png') no-repeat 498px 16px;
+    background: url('../media/arrow_down.png') no-repeat right 14px top 19px;
 }
 
 .form_gender
@@ -489,13 +488,9 @@ select
     margin-left: 40px;
 }
 
-.message
+#Your_message
 {
-    max-width: 540px;
-    width: 100%;
     height: 148px;
-    border-radius: 3px;
-    border: 2px solid #c9c9c9;
     resize: none;
 }
 

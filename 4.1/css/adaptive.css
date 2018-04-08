@@ -1,9 +1,185 @@
+@media screen and (max-width: 1350px){
+	.serial,
+	.serial_last
+	{
+		width: 100%;
+		max-width: 400px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+
+	.serial_logo
+	{
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.serials h3,
+	.serials p
+	{
+		max-width: 400px;
+	}
+
+	.serials
+	{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1128px){
+	.directors_and_films
+	{
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 1090px){
+	.about_me
+	{
+		float: left;
+		max-width: none;
+		position: static;
+		margin-top: 30px;
+	}
+
+	.my_information,
+	.hobbies
+	{
+		max-width: none;
+	}
+
+	.directors_and_films
+	{
+		position: static;
+		max-width: 970px;
+		margin-left: auto;
+	}
+
+	.best_directors
+	{
+		float: left;
+	}
+
+	.best_films
+	{
+		float: right;
+	}
+}
+
+@media screen and (max-width: 1052px){
+	.quote_one
+	{
+		float: none;
+		display: inline;
+	}
+
+	.quote
+	{
+		color: rgb(51,51,51);
+	}
+
+	.quote_name
+	{
+		color: #45c3a9;
+	}
+
+	.photo_and_quote
+	{
+		max-width: none;
+		text-align: center;
+	}
+
+	.photo
+	{
+		display: inline-block;
+	}
+
+}
+
+@media screen and (max-width: 1000px){
+	.about_me
+	{
+		float: none;
+		margin: auto;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 970px){
+	.about_me
+	{
+		float: none;
+	}
+
+	.directors_and_films
+	{
+		margin-left: auto
+	}
+
+	.information
+	{
+		margin-top: 46px;
+	}
+
+	.serial,
+	.serial_last
+	{
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.serial
+	{
+		margin-bottom: 40px;
+	}
+
+	.serial_logo
+	{
+		width: 100%;
+		max-width: 600px;
+	}
+
+	.serials h3,
+	.serials p
+	{
+		max-width: 600px;
+	}
+}
+
+@media screen and (max-width: 720px){
+	.form_title:after,
+	.form_title:before
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 694px){
+	.serials_wrapper
+	{
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 630px){
+	.directors_and_films
+	{
+		max-width: 330px;
+	}
+
+	.best_films
+	{
+		float: left;
+	}
+}
+
 @media screen and (max-width: 570px){
 	.menu
 	{
 		display: none;
 		position: absolute;
-		background-color: white;
+		background-color: rgb(255, 255, 255, 0.95);
 	}
 
 	.menu li
@@ -22,56 +198,9 @@
 	}
 }
 
-@media screen and (max-width: 720px){
-	.form_title:after,
-	.form_title:before
+@media screen and (max-width: 335px){
+	.name
 	{
-		display: none;
-	}
-}
-
-@media screen and (max-width: 950px){
-	.quote
-	{
-		color: rgb(51,51,51);
-	}
-
-	.quote_name
-	{
-		color: #45c3a9;
-		position: relative;
-		bottom: 75px;
-	}
-}
-
-@media screen and (max-width: 970px){
-	.about_me
-	{
-		float: none;
-	}
-
-	.directors_and_films
-	{
-		float: none;
-	}
-
-	.information
-	{
-		margin: auto;
-	}
-}
-
-@media screen and (max-width: 545px){
-	select
-	{
-		-webkit-appearance: menulist-button;
-		background: none;
-	}
-}
-
-/*@media screen and (max-width: 1240px){
-	.serials
-	{
-		margin-left: 5px;
+		font-size: 43px;
 	}
 }

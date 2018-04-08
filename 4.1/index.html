@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="directors_and_films">
-                    <div class="best">
+                    <div class="best_directors">
                         <h2 class="like">Любимые режиссеры:</h2>
                         <ul class="top_list">
                             <li>Моффат и Гэтисс</li>
@@ -57,7 +57,7 @@
                             <li>Тим Бёртон</li>
                         </ul>
                     </div>
-                    <div class="best">
+                    <div class="best_films">
                         <h2 class="like">Любимые фильмы:</h2>
                         <ol class="top_list">
                             <li>Облачный Атлас</li>
@@ -110,15 +110,15 @@
             <form action="post" class="write_me_form">
                 <div class="form_row">
                     <label for="username">Ваше имя <span class="form_star">*</span></label>
-                    <input type="text" name="username" required placeholder="Напишите имя..." class="username">
+                    <input type="text" name="username" required placeholder="Напишите имя..." id="username">
                 </div>
                 <div class="form_row">
                     <label for="email">Ваш email <span class="form_star">*</span></label>
-                    <input type="text" name="email" required placeholder="Напишите email..." class="email">
+                    <input type="text" name="email" required placeholder="Напишите email..." id="email">
                 </div>
                 <div class="form_row">
                     <label for="where_are_you_from">Откуда вы?</label>
-                        <select name="where_are_you_from" class="where_are_you_from">
+                        <select name="where_are_you_from" id="where_are_you_from">
                             <option value="Russia">Россия</option>
                             <option value="USA">США</option>
                             <option value="France">Франция</option>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="form_gender">
                     <label for="Your_message">Ваше сообщение <span class="form_star">*</span></label>
-                    <textarea class="message" required placeholder="Напишите текст сообщения..." name="message" rows="8"></textarea>
+                    <textarea id="Your_message" required placeholder="Напишите текст сообщения..." name="message" rows="8"></textarea>
                 </div>
                 <input type="submit" value="Отправить" class="submit_form">
             </form>
