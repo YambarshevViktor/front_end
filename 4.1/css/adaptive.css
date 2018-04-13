@@ -20,7 +20,7 @@
 		max-width: 400px;
 	}
 
-	.serials
+	.my_serials
 	{
 		text-align: center;
 	}
@@ -70,7 +70,7 @@
 	.quote_one
 	{
 		float: none;
-		display: inline;
+		display: inline-block;
 	}
 
 	.quote
@@ -94,6 +94,10 @@
 		display: inline-block;
 	}
 
+	.my_photo
+	{
+		margin-right: auto;
+	}
 }
 
 @media screen and (max-width: 1000px){
@@ -155,8 +159,8 @@
 	}
 }
 
-@media screen and (max-width: 694px){
-	.serials_wrapper
+@media screen and (max-width: 684px){
+	.my_serials
 	{
 		text-align: left;
 	}
@@ -198,9 +202,28 @@
 	}
 }
 
-@media screen and (max-width: 335px){
+@media screen and (max-width: 570px){
 	.name
 	{
-		font-size: 43px;
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 438px){
+	.name
+	{
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 387px){
+	.my_serials
+	{
+		font-size: 29px;
+	}
+
+	.name
+	{
+		font-size: 28px;
 	}
 }
