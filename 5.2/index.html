@@ -44,7 +44,7 @@
                         <p class="my_information">В 1930-е годы прошлого века физик Джордж Гамоу из университета штата Колорадо начал публиковать мини-сериал рассказов о неком мистере Томпкинсе, банковском клерке средних лет. Мистер Томпкинс, как явствовало из этих историй, интересовался современной наукой.</p>
                         <h2 class="my_hobbies">Мое хобби</h2>
                         <p class="hobbies">Он регулярно посещал вечерние лекции местного университетского профессора и, разумеется, всегда засыпал на самом интересном месте, а проснувшись, обнаруживал себя в каком-нибудь параллельном мире, где один из основных законов физики действовал как в его мире.</p>
-                        <p id="vk"><a href="#" id="my_vk"><span id="link">Напиши мне</span> →</a></p>
+                        <p id="vk"><a href="#" id="my_vk" onclick="modalWindow()"><span id="link">Напиши мне</span> →</a></p>
                     </div>
                 </div>
                 <div class="directors_and_films">
@@ -123,7 +123,7 @@
 
         <div id='my_modal'>
             <form action="post" class="write_me_form">
-               <img src="media/cross_close.png" alt="close_picture" class="close">
+               <img src="media/cross_close.png" alt="close_picture" class="close" onclick="closModalWindow()">
                 <div class="write_me">
                     <h2 class="form_title">Напиши мне</h2>
                 </div>
