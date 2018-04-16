@@ -1,7 +1,7 @@
-var serials_button = document.getElementById('films_button');
-var serials_show = document.getElementById('serials_showmore');
+function showMore(){
+	var serials_button = document.getElementById('films_button');
+	var serials_show = document.getElementById('serials_showmore');
 
-serials_button.onclick = function(){
 	serials_button.style.display = 'none';
 	serials_show.style.display = 'flex';
 	serials_show.style.opacity = '1';

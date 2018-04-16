@@ -275,7 +275,6 @@ nav .top_menu
     display: none;
 }
 
-
 .my_serials
 {
     font-size: 36px;
@@ -395,14 +394,10 @@ nav .top_menu
 
 .close
 {
-    color: rgb(70, 70, 70);
     float: right;
-    font-size: 60px;
-    font-weight: lighter;
-	position: relative;
-    top: 366px;
-    right: 370px;
-	cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
 }
 
 .write_me_form label
