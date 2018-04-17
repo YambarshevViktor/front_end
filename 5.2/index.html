@@ -129,11 +129,11 @@
                 </div>
                 <div class="form_row">
                     <label for="username">Ваше имя <span class="form_star">*</span></label>
-                    <input type="text" name="username" required placeholder="Напишите имя..." id="username">
+                    <input type="text" name="username" required placeholder="Напишите имя..." id="userName" onclick="nameOnclick()">
                 </div>
                 <div class="form_row">
                     <label for="email">Ваш email <span class="form_star">*</span></label>
-                    <input type="text" name="email" required placeholder="Напишите email..." id="email">
+                    <input type="text" name="email" required placeholder="Напишите email..." id="email" onclick="emailOnclick()">
                 </div>
                 <div class="form_row">
                     <label for="where_are_you_from">Откуда вы?</label>
@@ -158,7 +158,7 @@
                     <label for="Your_message">Ваше сообщение</label>
                     <textarea id="Your_message" placeholder="Напишите текст сообщения..." name="message" rows="8"></textarea>
                 </div>
-                <input type="submit" value="Отправить" class="submit_form">
+                <input type="submit" value="Отправить" class="submit_form" onclick="validate()">
             </form>
         </div>
 
