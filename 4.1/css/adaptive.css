@@ -26,20 +26,13 @@
 	}
 }
 
-@media screen and (max-width: 1128px){
-	.directors_and_films
-	{
-		position: absolute;
-	}
-}
-
 @media screen and (max-width: 1090px){
 	.about_me
 	{
 		float: left;
 		max-width: none;
-		position: static;
 		margin-top: 30px;
+		margin-bottom: auto;
 	}
 
 	.my_information,
@@ -50,7 +43,6 @@
 
 	.directors_and_films
 	{
-		position: static;
 		max-width: 970px;
 		margin-left: auto;
 	}
@@ -71,6 +63,7 @@
 	{
 		float: none;
 		display: inline-block;
+		margin-bottom: 46px;
 	}
 
 	.quote
@@ -87,6 +80,8 @@
 	{
 		max-width: none;
 		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.photo
@@ -97,6 +92,16 @@
 	.my_photo
 	{
 		margin-right: auto;
+	}
+
+	.name
+	{
+		text-align: left;
+	}
+
+	.name:after
+	{
+		margin-left: 0;
 	}
 }
 
@@ -183,7 +188,7 @@
 	{
 		display: none;
 		position: absolute;
-		background-color: rgb(255, 255, 255, 0.95);
+		background-color: rgba(255, 255, 255, 0.8);
 	}
 
 	.menu li

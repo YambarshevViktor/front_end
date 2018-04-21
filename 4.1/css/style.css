@@ -56,11 +56,6 @@
     margin: 0 auto;
 }
 
-nav .top_menu
-{
-    position: relative;
-}
-
 .menu li a
 {
     display: inline-table;
@@ -108,6 +103,7 @@ nav .top_menu
     float: left;
     max-width: 500px;
     width: 100%;
+    margin-bottom: 81px;
 }
 
 .quote
@@ -136,8 +132,7 @@ nav .top_menu
     float: right;
     max-width: 570px;
     margin-right: 20px;
-    position: relative;
-    bottom: 117px;
+    margin-bottom: 117px;
     width: 100%;
 }
 
@@ -150,6 +145,7 @@ nav .top_menu
     background-color: #45c3a9;
     display: block;
     margin-top: 30px;
+    margin-left: 390px;
 }
 
 .name
@@ -164,7 +160,6 @@ nav .top_menu
 
 .information
 {
-    margin-top: 46px;
     margin-right: 22px;
     width: 100%;
 }
@@ -227,7 +222,6 @@ nav .top_menu
     float: left;
     max-width: 330px;
     width: 100%;
-    margin-right: 60px;
     margin-left: 20px;
     margin-top: 44px;
 }
